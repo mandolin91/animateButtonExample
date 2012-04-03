@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		258D9603151C53060067CD7F /* UIAnimateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 258D9602151C53060067CD7F /* UIAnimateButton.m */; };
+		25B56B6C151B055B00D65B9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B56B6B151B055B00D65B9B /* UIKit.framework */; };
+		25B56B6E151B055B00D65B9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B56B6D151B055B00D65B9B /* Foundation.framework */; };
+		25B56B70151B055B00D65B9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B56B6F151B055B00D65B9B /* CoreGraphics.framework */; };
+		25B56B76151B055B00D65B9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B74151B055B00D65B9B /* InfoPlist.strings */; };
+		25B56B78151B055B00D65B9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B56B77151B055B00D65B9B /* main.m */; };
+		25B56B7C151B055B00D65B9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B56B7B151B055B00D65B9B /* AppDelegate.m */; };
+		25B56B7F151B055B00D65B9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25B56B7E151B055B00D65B9B /* ViewController.m */; };
+		25B56B82151B055B00D65B9B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B80151B055B00D65B9B /* ViewController.xib */; };
+		25B56B91151B079900D65B9B /* main_anibtn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B8E151B079900D65B9B /* main_anibtn_1.png */; };
+		25B56B92151B079900D65B9B /* main_anibtn_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B8F151B079900D65B9B /* main_anibtn_2.png */; };
+		25B56B93151B079900D65B9B /* main_anibtn_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B90151B079900D65B9B /* main_anibtn_up.png */; };
+		25B56B97151B07A300D65B9B /* main_anibtn_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B94151B07A300D65B9B /* main_anibtn_1@2x.png */; };
+		25B56B98151B07A300D65B9B /* main_anibtn_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B95151B07A300D65B9B /* main_anibtn_2@2x.png */; };
+		25B56B99151B07A300D65B9B /* main_anibtn_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25B56B96151B07A300D65B9B /* main_anibtn_up@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		258D9601151C53060067CD7F /* UIAnimateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAnimateButton.h; sourceTree = "<group>"; };
+		258D9602151C53060067CD7F /* UIAnimateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAnimateButton.m; sourceTree = "<group>"; };
+		25B56B67151B055B00D65B9B /* animateButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animateButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B56B6B151B055B00D65B9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25B56B6D151B055B00D65B9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25B56B6F151B055B00D65B9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25B56B73151B055B00D65B9B /* animateButtonExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "animateButtonExample-Info.plist"; sourceTree = "<group>"; };
+		25B56B75151B055B00D65B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25B56B77151B055B00D65B9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25B56B79151B055B00D65B9B /* animateButtonExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "animateButtonExample-Prefix.pch"; sourceTree = "<group>"; };
+		25B56B7A151B055B00D65B9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25B56B7B151B055B00D65B9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25B56B7D151B055B00D65B9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25B56B7E151B055B00D65B9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25B56B81151B055B00D65B9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		25B56B8E151B079900D65B9B /* main_anibtn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_anibtn_1.png; sourceTree = "<group>"; };
+		25B56B8F151B079900D65B9B /* main_anibtn_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_anibtn_2.png; sourceTree = "<group>"; };
+		25B56B90151B079900D65B9B /* main_anibtn_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_anibtn_up.png; sourceTree = "<group>"; };
+		25B56B94151B07A300D65B9B /* main_anibtn_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_anibtn_1@2x.png"; sourceTree = "<group>"; };
+		25B56B95151B07A300D65B9B /* main_anibtn_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_anibtn_2@2x.png"; sourceTree = "<group>"; };
+		25B56B96151B07A300D65B9B /* main_anibtn_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main_anibtn_up@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25B56B64151B055A00D65B9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B56B6C151B055B00D65B9B /* UIKit.framework in Frameworks */,
+				25B56B6E151B055B00D65B9B /* Foundation.framework in Frameworks */,
+				25B56B70151B055B00D65B9B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B56B5C151B055A00D65B9B = {
+			isa = PBXGroup;
+			children = (
+				25B56B71151B055B00D65B9B /* animateButtonExample */,
+				25B56B6A151B055B00D65B9B /* Frameworks */,
+				25B56B68151B055B00D65B9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25B56B68151B055B00D65B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25B56B67151B055B00D65B9B /* animateButtonExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25B56B6A151B055B00D65B9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B56B6B151B055B00D65B9B /* UIKit.framework */,
+				25B56B6D151B055B00D65B9B /* Foundation.framework */,
+				25B56B6F151B055B00D65B9B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25B56B71151B055B00D65B9B /* animateButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				25B56B7A151B055B00D65B9B /* AppDelegate.h */,
+				25B56B7B151B055B00D65B9B /* AppDelegate.m */,
+				258D9601151C53060067CD7F /* UIAnimateButton.h */,
+				258D9602151C53060067CD7F /* UIAnimateButton.m */,
+				25B56B7D151B055B00D65B9B /* ViewController.h */,
+				25B56B7E151B055B00D65B9B /* ViewController.m */,
+				25B56B80151B055B00D65B9B /* ViewController.xib */,
+				25B56B72151B055B00D65B9B /* Supporting Files */,
+			);
+			path = animateButtonExample;
+			sourceTree = "<group>";
+		};
+		25B56B72151B055B00D65B9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B56B94151B07A300D65B9B /* main_anibtn_1@2x.png */,
+				25B56B95151B07A300D65B9B /* main_anibtn_2@2x.png */,
+				25B56B96151B07A300D65B9B /* main_anibtn_up@2x.png */,
+				25B56B8E151B079900D65B9B /* main_anibtn_1.png */,
+				25B56B8F151B079900D65B9B /* main_anibtn_2.png */,
+				25B56B90151B079900D65B9B /* main_anibtn_up.png */,
+				25B56B73151B055B00D65B9B /* animateButtonExample-Info.plist */,
+				25B56B74151B055B00D65B9B /* InfoPlist.strings */,
+				25B56B77151B055B00D65B9B /* main.m */,
+				25B56B79151B055B00D65B9B /* animateButtonExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25B56B66151B055A00D65B9B /* animateButtonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25B56B85151B055B00D65B9B /* Build configuration list for PBXNativeTarget "animateButtonExample" */;
+			buildPhases = (
+				25B56B63151B055A00D65B9B /* Sources */,
+				25B56B64151B055A00D65B9B /* Frameworks */,
+				25B56B65151B055A00D65B9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = animateButtonExample;
+			productName = animateButtonExample;
+			productReference = 25B56B67151B055B00D65B9B /* animateButtonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25B56B5E151B055A00D65B9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "KTH(주) iOS팀";
+			};
+			buildConfigurationList = 25B56B61151B055A00D65B9B /* Build configuration list for PBXProject "animateButtonExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25B56B5C151B055A00D65B9B;
+			productRefGroup = 25B56B68151B055B00D65B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25B56B66151B055A00D65B9B /* animateButtonExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25B56B65151B055A00D65B9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B56B76151B055B00D65B9B /* InfoPlist.strings in Resources */,
+				25B56B82151B055B00D65B9B /* ViewController.xib in Resources */,
+				25B56B91151B079900D65B9B /* main_anibtn_1.png in Resources */,
+				25B56B92151B079900D65B9B /* main_anibtn_2.png in Resources */,
+				25B56B93151B079900D65B9B /* main_anibtn_up.png in Resources */,
+				25B56B97151B07A300D65B9B /* main_anibtn_1@2x.png in Resources */,
+				25B56B98151B07A300D65B9B /* main_anibtn_2@2x.png in Resources */,
+				25B56B99151B07A300D65B9B /* main_anibtn_up@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B56B63151B055A00D65B9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B56B78151B055B00D65B9B /* main.m in Sources */,
+				25B56B7C151B055B00D65B9B /* AppDelegate.m in Sources */,
+				25B56B7F151B055B00D65B9B /* ViewController.m in Sources */,
+				258D9603151C53060067CD7F /* UIAnimateButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25B56B74151B055B00D65B9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B56B75151B055B00D65B9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25B56B80151B055B00D65B9B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B56B81151B055B00D65B9B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25B56B83151B055B00D65B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25B56B84151B055B00D65B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25B56B86151B055B00D65B9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "animateButtonExample/animateButtonExample-Prefix.pch";
+				INFOPLIST_FILE = "animateButtonExample/animateButtonExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25B56B87151B055B00D65B9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "animateButtonExample/animateButtonExample-Prefix.pch";
+				INFOPLIST_FILE = "animateButtonExample/animateButtonExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25B56B61151B055A00D65B9B /* Build configuration list for PBXProject "animateButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B56B83151B055B00D65B9B /* Debug */,
+				25B56B84151B055B00D65B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25B56B85151B055B00D65B9B /* Build configuration list for PBXNativeTarget "animateButtonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25B56B86151B055B00D65B9B /* Debug */,
+				25B56B87151B055B00D65B9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25B56B5E151B055A00D65B9B /* Project object */;
+}
